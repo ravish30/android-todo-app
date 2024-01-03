@@ -50,7 +50,7 @@
                 android:textColorHint="@color/black"
                 android:singleLine="true"
                 android:background="@drawable/edit_text"
-                android:id="@+id/name_ET" />
+                android:id="@+id/email_ET" />
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -61,6 +61,7 @@
                 android:background="@drawable/edit_text"
                 android:id="@+id/password_ET" />
             <Button
+                android:id="@+id/login_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Login"
